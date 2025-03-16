@@ -1,0 +1,101 @@
+html{
+    font-family: 'Roboto', sans-serif;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url(/src/images/bg-repeat.jpg);
+    background-repeat: repeat;
+    background-size: contain;
+    padding: 12px 50px;
+}
+
+.text-section{
+    width: 300px;
+    margin-right: 60px;
+    color: #FFFFFF;
+}
+
+.text-section h1{
+    font-size: 2rem;
+    font-weight: 900;
+    padding-bottom: 11px;
+}
+
+.text-section p{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.form-section{
+    background-color: #FFFFFF;
+    width: 340px;
+    min-height: 378px;
+    padding: 20px;
+}
+
+.form-section form{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-section form .input-text{
+    margin-bottom: 15px;
+    padding: 7px;
+    color: #A8A8A8;
+    font-size: 1.5rem;
+    font-weight: 700;
+    border-radius: 5px;
+    border: 1px solid #000000;
+}
+
+.form-section form .input-text.message{
+    height: 100px;
+}
+
+.form-section form p{
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin: -10px 0 20px -7px;
+}
+
+.form-section form button{
+    background-color: #3CCC87;
+    border: none;
+    border-radius: 5px;
+    height: 41px;
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    font-weight: 700;
+    box-shadow: 0px 1px 4px 1px rgba(41, 41, 41, 0.41);
+}
+
+.form-section form button:hover{
+    opacity: 0.8;
+}
+
+.form-section form .campo-obrigatorio{
+    font-size: 8px;
+    color: #F52E2E;
+    font-weight: 400;
+    padding: 5px 0 ;
+    margin: -20px 0 10px 0px;
+    display: none;
+}
+
+/* Estilo quando enviado */
+
+.form-section form .input-text.required{
+    border: 1px solid #F52E2E;
+}
+
+.form-section form .input-text.valid{
+    border: 1px solid #00C22B;
+}
+
+.form-section form .campo-obrigatorio.required{
+    display: block;
+}

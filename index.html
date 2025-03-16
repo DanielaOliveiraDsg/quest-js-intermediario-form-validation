@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quest JS Intermediário - Formulário com validação</title>
+
+    <link rel="stylesheet" href="/src/css/reset.css">
+    <link rel="stylesheet" href="/src/css/styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <section class="text-section">
+            <h1>FICOU COM DÚVIDA?<br>
+                NOS MANDE UMA MENSAGEM!
+            </h1>
+            <P>Caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em menos de 24h.</P>
+        </section>
+        <section class="form-section">
+            <form>
+                <input type="text" id="nome-completo" class="input-text" placeholder="Nome completo*">
+                <p class="campo-obrigatorio">campo obrigatório</p>
+
+                <input type="email" id="email-usuario" class="input-text" placeholder="Email*">
+                <p class="campo-obrigatorio">campo obrigatório</p>
+
+                <input type="tel" id="telefone" class="input-text" placeholder="Telefone*">
+                <p class="campo-obrigatorio">campo obrigatório</p>
+
+                <textarea id="mensagem" class="input-text message" placeholder="Mensagem*"></textarea>
+                <p class="campo-obrigatorio">campo obrigatório</p>
+                <p>*campos obrigatórios</p>
+                <button type="submit" id="btn">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <script type="text/javascript" src="/src/js/form.js"></script>
+</body>
+</html>
