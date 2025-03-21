@@ -14,9 +14,10 @@ main{
 }
 
 .text-section{
-    width: 300px;
-    margin-right: 60px;
+    width: 340px;
+    margin-right: 40px;
     color: #FFFFFF;
+    padding: 20px;
 }
 
 .text-section h1{
@@ -54,6 +55,7 @@ main{
 
 .form-section form .input-text.message{
     height: 100px;
+    resize: none;
 }
 
 .form-section form p{
@@ -78,7 +80,7 @@ main{
 }
 
 .form-section form .campo-obrigatorio{
-    font-size: 8px;
+    font-size: 0.8rem;
     color: #F52E2E;
     font-weight: 400;
     padding: 5px 0 ;
